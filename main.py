@@ -1,6 +1,8 @@
 def main() -> None:
-    print("Hello world")
-    print("My name is Jae")
+    data = open("Dataset/letter-recognition.data", "r")
+    print(data.read())
+
+
 
 
 if __name__ == "__main__":
