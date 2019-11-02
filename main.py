@@ -4,6 +4,8 @@ def main() -> None:
 
 
 
+    print("my name is aaron")
+
 
 if __name__ == "__main__":
     main()
