@@ -18,6 +18,7 @@ def main() -> None:
         tinputs[x] = letter[1:]
         toutputs[x] = ord(letter[:1][0].lower()) - 96
     print(yeet.think(tinputs))
+    data.close()
 
 if __name__ == "__main__":
     main()
